@@ -1,12 +1,28 @@
-# React + Vite
+# React Submission Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A React-based form submission application with Bootstrap styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Input Fields**: First name, last name, email, contact number.
+- **Radio Buttons**: Gender selection (Male/Female).
+- **Checkboxes**: Subject selection (English, Math, Physics).
+- **File Upload**: Resume upload.
+- **URL Input**: Enter a URL.
+- **Dropdown**: Select programming languages (Beginner/Advanced).
+- **Textarea**: About yourself section.
+- **Reset Button**: Clears all form fields.
+- **Submit Button**: Logs form data to the console.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **React**: JavaScript library for building the user interface.
+- **Bootstrap**: CSS framework for styling.
+- **Bootstrap Icons**: For icons.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/form-submission.git
